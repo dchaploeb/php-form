@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>Contact Form</title>
+    <link href="styles.css" rel="stylesheet">
+    </head>
+<body>
+<nav>
+	<ul>
+    	<li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+</nav>
+<div id="wrapper">
+<form action="" method="post">
+
+  <header>
+    <h2>Example Responsive Form</h2>
+  </header>
+  
+  <div class="formblock">
+    <label for="vname">Full Name</label>
+    <input id="vname" name="vname" type="text" value="" size="8" tabindex="1" spellcheck="false">
+    <br class="clear">
+   </div>
+
+  <div class="formblock">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="vmail" spellcheck="false" value="" maxlength="255" tabindex="2">
+    <br class="clear">
+  </div>
+    
+  <div class="formblock">
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="tel" spellcheck="false" value="" maxlength="15" tabindex="2">
+    <br class="clear">
+  </div>
+  
+    
+  <div class="formblock">
+    <label for="fnum">Favorite Number</label>
+    <input id="fnum" name="fnum" type="number" spellcheck="false" value="" maxlength="15" tabindex="2">
+    <br class="clear">
+  </div>
+  
+  <div class="formblock">
+    <label for="comments">Message</label>
+    <textarea id="comments" name="comments" spellcheck="true" rows="10" cols="50" tabindex="3"></textarea>
+    <br class="clear">
+  </div>
+
+    <fieldset class="formblock">
+    
+      <legend>Select a Choice</legend>
+      <div class="choicegroup">
+          <div class="choiceblock">
+          <input class="choice" name="choices" id="choices_1" type="radio" value="First Choice" tabindex="4" checked>
+          <label class="choice" for="choices_1">First Choice</label>
+          </div>
+    
+            <div class="choiceblock">
+          <input class="choice" name="choices" id="choices_2" type="radio" value="Second Choice" tabindex="5">
+          <label class="choice" for="choices_2">Second Choice</label>
+          </div>
+    
+          <div class="choiceblock">
+          <input class="choice" name="choices" id="choices_3" type="radio" value="Third Choice" tabindex="6">
+          <label class="choice" for="choices_3">Third Choice</label>
+          </div>
+	</div>
+    </fieldset>
+
+    <fieldset class="formblock">
+    
+      <legend>Choose all that apply</legend>
+      <div class="choicegroup">
+          <div class="choiceblock">
+          <input class="choice" name="boxes" id="boxes_1" type="checkbox" value="First Choice" tabindex="7">
+          <label class="choice" for="boxes_1">First Choice</label>
+          </div>
+    
+          <div class="choiceblock">
+          <input class="choice" name="boxes" id="boxes_2" type="checkbox" value="Second Choice" tabindex="8">
+          <label class="choice" for="boxes_2">Second Choice</label>
+          </div>
+    
+          <div class="choiceblock">
+          <input class="choice" name="boxes" id="boxes_3" type="checkbox" value="Third Choice" tabindex="9">
+          <label class="choice" for="boxes_3">Third Choice</label>
+          </div>
+	</div>
+    </fieldset>
+  	
+  	<div class="buttonSpacer">&nbsp;</div>
+	<input id="submit" name="submit" type="submit" value="Submit" tabindex="10" >
+   
+</form>
+<footer>
+	&copy; 2015, This means you.
+</footer>
+</div>
+</body>
+</html>

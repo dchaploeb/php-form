@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;
+} 
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 80%;
+		
+}
+
+input, label { display: block; }
+
+label, legend, fieldset {
+	padding: 0;
+}
+
+.formblock { 
+	margin-top: 1.7em;	
+	clear: both;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;	
+}
+
+input[type=submit] {
+	margin-top: 1em;
+	font-size: 1.2em;
+	width: 250px;
+}
+
+.choice { display: inline; }
+
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+@media (min-width: 600px) {
+	label, legend, .buttonSpacer {
+		float: left;
+		width: 25%
+	}
+	
+	input[type=text],
+	input[type=email],
+	input[type=url],
+	input[type=password],
+	textarea,
+	.choicegroup
+	{
+		width: 65%;	
+		float: left;
+	}	
+
+	input[type=submit] {
+		float:right;
+		width: 20%;
+	}
+	.g-recaptcha {
+		float:right;
+	}
+	
+	.choice {
+		display: inline;
+		float: none;
+	}
+	
+	.warning {
+		display: block;
+		color: red;
+		font-weight: bold;	
+	}
+		
+}
+
+
+@media (min-width: 1000px) {
+	
+	label, legend, .buttonSpacer {
+		text-align: right;
+		padding-right: 1.7em;	
+	}
